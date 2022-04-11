@@ -84,6 +84,7 @@ html {
     font-weight: 700;
     font-size: 18px;
     line-height: 160%;
+    margin-bottom: 20px;
 }
 
 .fs__box-btn a{
@@ -137,8 +138,8 @@ html {
     }
 }
 
-/* 1024px - 1140px */
-@media (min-width: 1024px) and (max-width: 1139.75px) {
+/* 1024px - 1440px */
+@media (min-width: 1024px) and (max-width: 1439.75px) {
 .fs__box-t {
     font-size: 70px;
     line-height: 90px;
@@ -182,7 +183,7 @@ html {
     }
 
     .fs__box-btnsc {
-        width: 190px;
+        width: 180px;
         margin-left: 0px;
      }
 
@@ -217,10 +218,10 @@ html {
     }
 
     .fs__img-jar {
-        width: 80%;
-        position: relative;
-        right: 41px;
-        bottom: 50px;
+        width: 50%;
+        display: block;
+        text-align: center;
+        
     }
 
     .fs__box-t {
@@ -261,8 +262,8 @@ html {
     margin: 0 100px 0 0;
 }
 
-/* 1024px - 1140px */
-@media (min-width: 1024px) and (max-width: 1139.75px) {
+/* 1024px - 1440px */
+@media (min-width: 1024px) and (max-width: 1439.75px) {
     .ss__img {
         margin: 0 50px 30px 0;
     }
@@ -290,7 +291,7 @@ html {
     
     }
     .ss__img {
-        margin: 0 0 15px 0;
+        margin: 0 10px 15px 0;
     }
 }
 
@@ -340,8 +341,8 @@ html {
     background: #E68311;
 }
 
-/* 1024px - 1140px */
-@media (min-width: 1024px) and (max-width: 1139.75px) {
+/* 1024px - 1440px */
+@media (min-width: 1024px) and (max-width: 1439.75px) {
     .ts__text-title {
     font-size: 35px;
     line-height: 130%;
@@ -359,7 +360,7 @@ html {
 /* 768px - 1024px */
 @media (min-width: 768px) and (max-width: 1023.75px) {
     .ts__img-fl {
-    width: 120%;
+    width: 110%;
     height: auto;
         }
 
@@ -389,25 +390,28 @@ html {
     margin-bottom: 200px;
     }
 
+    .ts__text {
+    margin-left: 20px;
+}
+
     .ts__img-fl {
-    width: 105%;
+    width: 85%;
     height: auto;
     }
 
     .ts__text-title {
-    font-size: 28px;
+    font-size: 25px;
     margin-top: 20px;
     margin-bottom: 25px;
-    margin-left: 10px;
-            
+                
     }
     .ts__text-txt {
-    margin-left: 10px;
+    font-size: 15px;
             
         }
     .ts__text-btn {
-    margin-left: 10px;
-            
+    width: 166px;
+    height: 50px;       
     }
 
 }
@@ -455,8 +459,8 @@ html {
     background: #E68311;
 }
 
-/* 1024px - 1140px */
-@media (min-width: 1024px) and (max-width: 1139.75px) {
+/* 1024px - 1440px */
+@media (min-width: 1024px) and (max-width: 1439.75px) {
     .fts__img-sp {
     position: relative;
     left: -4px;
@@ -502,20 +506,26 @@ html {
     flex-direction: column;
     }
     .fts__img-sp {
-    width: 105%;
+    width: 85%;
     height: auto;
     } 
     .fts__text-title {
-    font-size: 28px;
+    font-size: 25px;
     line-height: 130%;
     margin-top: 10px;
     }
     .fts__text {
-    margin-left: 30px;
-        }
+    margin-left: 20px;
+    }
     
+    .fts__text-txt {
+    font-size: 15px;   
+    }
+
     .fts__text-btn {
     margin-bottom: 30px;
+    width: 166px;
+    height: 50px;
     }
 }
 
@@ -612,6 +622,10 @@ html {
         text-align: center;
     }
 
+    .fvs__row-menu h3 {
+        font-size: 33px;
+    }
+
     .box-item__btn {
         margin-bottom: 20px;
     }
@@ -630,11 +644,16 @@ html {
         text-align: center;
     }
 
+    .box-item__txt {
+        margin: 0 auto;
+    }
+
     .box {
         grid-template-columns: 1fr;}
 
         .box-item__btn {
     margin-bottom: 20px;
+    margin-top: 20px;
     }
 
 }
@@ -682,12 +701,17 @@ html {
 @media (min-width: 768px) and (max-width: 1023.75px) {
     .footer__iner {
       flex-wrap: wrap;
-      justify-content: flex-end;
+      justify-content: center;
     }
 }
 
 /* 320px - 768px */
 @media (min-width: 320px) and (max-width: 767.75px) {
+.container--sm {
+    padding: 10px;
+    }
+
+
 .footer__img {
      display: block;
      margin: 0 auto;
@@ -700,14 +724,19 @@ html {
     }
 
     .footer__text {
-        margin: 0 0 20px 0;
+        margin: 0 auto;
     }
 
     .footer__icon {
-        margin: 0 10px 20px 15px;
+        margin: 20px 25px 20px 15px;
     }
 
     .footer__img-gp {
         margin: 0 auto;
+        display: flex;
+    }
+
+    .footer__img-as {
+        margin-top: 10px;
     }
 }
