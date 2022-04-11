@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Kodchasan';
+    src: url('subset-Kodchasan-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kodchasan';
+    src: url('subset-Kodchasan-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kodchasan';
+    src: url('subset-Kodchasan-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
