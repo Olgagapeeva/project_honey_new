@@ -118,12 +118,10 @@ html {
     left: 65px;
 }
 
-/*.fs::before {
+.block::before {
     content: url(../imgs/section1/honey.png);
-    position: relative;
-    top: 10px;
-    left: -50px;
-}*/
+    position: absolute;
+}
 
 
 /* 1440px - 2560px */
@@ -147,7 +145,7 @@ html {
 
 }
 .fs__img {
-    left: -90px;
+    left: -95px;
     }
 
 .fs__img-jar {
@@ -171,19 +169,19 @@ html {
     }
         
     .fs__box-t {
-        font-size: 60px;
+        font-size: 55px;
         line-height: 80px;
         margin-bottom: 30px;
     
     }
     
     .fs__box-btn {
-        width: 170px;
+        width: 139px;
         margin-bottom: 50px;
     }
 
     .fs__box-btnsc {
-        width: 180px;
+        width: 150px;
         margin-left: 0px;
      }
 
@@ -210,29 +208,39 @@ html {
 
     .fs {
         flex-direction: column;
-        min-height: 765px;
+        min-height: 690px;
     }
 
     .fs__box {
-        padding: 70px 0 0 60px;   
+        padding: 70px 0 0 0; 
+        display: block;
+        text-align: center;  
+    }
+
+    .fs__img {
+        position: relative;
+        left: 1px;
+        top: 1px;
+        text-align: center;
     }
 
     .fs__img-jar {
         width: 50%;
-        display: block;
-        text-align: center;
-        
+                
     }
 
     .fs__box-t {
         font-size: 35px;
         line-height: 50px;
-        margin-bottom: 35px;
+        margin: 0 auto;
+        text-align: center;
+        max-width: 234px;
     
     } 
     .fs__box-btn {
-        width: 139px;
-        margin-bottom: 50px;
+        width: 133px;
+        font-size: 15px;
+        margin: 20px 0;
     }
 
     .fs__box-btnsc {
