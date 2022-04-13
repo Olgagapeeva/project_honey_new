@@ -280,9 +280,15 @@ html {
     .ss__img2, 
     .ss__img3, 
     .ss__img4  {
-        margin: 0 80px 20px 0;
+        margin: 0 60px 20px 0;
         display: inline-block;
     }
+
+   /* .ss {
+        padding: 100px 0 150px 15px;
+        display: block;
+        text-align: center;
+    }*/
 }
 
 /* 768px - 1024px */
@@ -293,6 +299,11 @@ html {
     .ss__img4  {
         margin: 0 30px 20px 0;
         display: inline-block;
+    }
+    .ss {
+        padding: 100px 0 150px 15px;
+        display: block;
+        text-align: center;
     }
 }
 
